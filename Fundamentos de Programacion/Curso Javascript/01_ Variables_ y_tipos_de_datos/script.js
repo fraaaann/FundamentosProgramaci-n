@@ -57,3 +57,10 @@ resultadoElement.innerHTML += "Frutas: " + frutas.join(", ") + "<br>";
 resultadoElement.innerHTML += "Persona: " + JSON.stringify(persona) + "<br>";
 resultadoElement.innerHTML += "Variable Indefinida: " + variableIndefinida + "<br>";
 resultadoElement.innerHTML += "Valor Nulo: " + valorNulo + "<br>";
+
+
+
+
+
+git config --global user.email "iccp.programacion.tp@gmail.com"
+git config --global user.name "programacioniccp"
