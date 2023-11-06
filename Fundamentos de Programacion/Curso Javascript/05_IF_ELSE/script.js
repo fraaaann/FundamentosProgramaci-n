@@ -58,8 +58,8 @@ if (userName === "kmorales" && password === "123456"){
     console.log("Acceso concedido");
 } else {
     console.log("Acceso denegado");
-}
 
+}
 
 /*
 Problema 4: Crea una variable llamada numero que almacene un número. Escribe un programa en JavaScript que determine si el número es positivo, negativo o igual a cero. Imprime el resultado en la consola. Utiliza una declaración "if-else if-else" para resolver este problema.
