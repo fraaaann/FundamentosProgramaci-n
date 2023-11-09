@@ -80,9 +80,24 @@ if (num < 0){
 
 
 /*
-Problema 5: Supongamos que tienes una variable puntuación que almacena la puntuación de un juego. Escribe un programa en JavaScript que determine el rango de la puntuación:
+Problema 5: Supongamos que tienes una variable puntuación
+ que almacena la puntuación de un juego. Escribe un 
+ programa en JavaScript que determine el rango de 
+ la puntuación:
 
 Si la puntuación es igual o mayor a 90, imprime "Excelente".
 Si la puntuación está entre 70 y 89, imprime "Buen trabajo".
-Si la puntuación es menor a 70, imprime "Necesitas mejorar". Utiliza declaraciones "if-else" para resolver este problema.
+Si la puntuación es menor a 70, imprime "Necesitas mejorar". 
+Utiliza declaraciones "if-else" para resolver este problema.
 */
+let puntuacion = 40;
+
+//Medir puntuación
+
+if (puntuacion >= 90) {
+    console.log("Excelente");
+} else if (puntuacion >= 70 && puntuacion <= 89) {
+    console.log("Buen trabajo");
+} else{
+    console.log("Necesitas mejorar");
+}
